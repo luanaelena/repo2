@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema- Survey</title>
+</head>
+<body>
+    <h1>Survey Form- Licenta</h1>
+    <p>Multumim pentru timpul acordat pentru a completa acest formular. Fiecare completare ma aduce mai aproape de finalizarea lucrarii mele.</p>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Date demografice</legend>
+
+            <div>
+            <label for="nume">Nume: </label>
+            <input type="text" name="nume" id="nume" required>
+            </div>
+
+            <div style="margin-top: 10px;">
+            <label>Gen: </label>
+
+            <label for="f" name="gen">Feminin</label>
+            <input type="radio" id="f" value="f" name="gen" required>
+
+            <label for="m" name="gen">Masculin</label>
+            <input type="radio" id="m" value="m" name="gen" required>
+            </div>
+
+            <div style="margin-top: 10px;">
+                <label for="varsta">Varsta: </label>
+                <input type="number" id="varsta" required min="18">
+            </div>
+
+            <div style="margin-top: 10px;">
+                <label>Nivel de studii absolvite: </label>
+                <input type="text" required placeholder="ex: liceu, universitate, etc.">
+            </div>
+
+            <div style="margin-top: 15px;">
+                <input type="checkbox" id="acord" value="acord" name="acord" required>
+                <label for="acord">Sunt de acord ca datele si raspunsurile mele sa fie folosite in acest studiu.</label>
+            </div>
+        </fieldset>
+
+        <h2>Intrebari</h2>
+        <fieldset>
+            <h4>1. In general sunt multumit/a de mine</h4>
+            <div style="margin-top: 10px;">
+                <label>Trepte: </label>
+                <select name="trepte">
+                    <option value="treapta_0">Alege o treapta..</option>
+                    <option value="treapta_1">Total de acord</option>
+                    <option value="treapta_2">De acord</option>
+                    <option value="treapta_3">Dezacord</option>
+                    <option value="treapta_4">Total dezacord</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset style="margin-top: 10px;">
+            <h4>2. Cred ca am o serie de calitati bune.</h4>
+            <div style="margin-top: 10px;">
+                <label>Trepte: </label>
+                <select name="trepte">
+                    <option value="treapta_0">Alege o treapta..</option>
+                    <option value="treapta_1">Total de acord</option>
+                    <option value="treapta_2">De acord</option>
+                    <option value="treapta_3">Dezacord</option>
+                    <option value="treapta_4">Total dezacord</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset style="margin-top: 10px;">
+            <h4>3. Sunt capabil/a sa fac lucruri la fel de bine ca ceilalti.</h4>
+            <div style="margin-top: 10px;">
+                <label>Trepte: </label>
+                <select name="trepte">
+                    <option value="treapta_0">Alege o treapta..</option>
+                    <option value="treapta_1">Total de acord</option>
+                    <option value="treapta_2">De acord</option>
+                    <option value="treapta_3">Dezacord</option>
+                    <option value="treapta_4">Total dezacord</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <h2>Parerea voastra conteaza!</h2>
+        <fieldset>
+            <h3>Doriti sa lasati feedback sau va confruntati cu anumite probleme din sfera psihologica?</h3>
+            <textarea name="feedback" cols="30" rows="10" placeholder="Ajutorul este la un click distanta.."></textarea>
+            <h3>In cazul in care doresti sa fii contactat/a pentru o prima sedinta gratutita cu un psiholog, creeaza-ti un cont introducand email-ul tau si o parola.</h3>
+
+            <div>
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" placeholder="username@mail.com">
+            </div>
+
+            <div style="margin-top: 10px;">
+                <label for="password">Parola: </label>
+                <input type="password" id="password" placeholder="Parola">
+            </div>
+        </fieldset>
+    </form>
+
+    <div style="margin-top: 15px;">
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+
+.div-wide {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.container {
+    width: 800px;
+    margin: 10px auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.container div {
+    margin-bottom: 10px;
+}
+
+.container1 div {
+    width: 300px;
+}
+
+.container1 div span {
+    color: darkseagreen;
+    font-weight: bold;
+}
+
+div.yellow {
+    font-weight: bold;
+    background-color: #D3A01B;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -20px;
+    padding-left: 20px;
+    border-bottom: 5px solid #8D8E88;
+    width: 400px;
+}
+
+div.yellow h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container2 {
+    border-bottom: 10px solid #8D8E88;
+}
+
+.grey {
+    background-color: #61605A;
+    border-top: 8px solid #8D8E88;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}

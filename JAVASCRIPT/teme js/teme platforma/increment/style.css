@@ -1,0 +1,20 @@
+.display-styles{
+    font-size: 2rem;
+}
+
+/* .negative{
+    color: #c00;
+}
+
+.positive{
+    color: #bada55;
+} */
+
+/* 3. Using CSS classes, set the color of the decrement buttons (-10, -5, -1) to have a red caption and the increment buttons (+1, +5, +10) to have a green caption. */
+.negative{
+    color: red;
+}
+
+.positive{
+    color: green;
+}

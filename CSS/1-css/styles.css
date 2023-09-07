@@ -1,0 +1,125 @@
+/* target everything */
+*:focus{
+    outline: 2px solid deeppink;
+}
+
+/* element (tag) selector */
+li{
+    list-style-type: none;
+}
+
+/* id selector */
+#blue{
+    background-color: blue;
+}
+
+/* class selector */
+.list-item{
+    background-color: deeppink;
+}
+
+/* class selector */
+.bg-blue{
+    background-color: blue;
+}
+
+/* attribute selector */
+[disabled]{
+    color: red
+}
+
+[type="text"]{
+    /* border: 1px dotted green; */
+    border: dotted green;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+/* pseudo classes */
+a:visited{
+    color: deeppink;
+}
+
+a:active{
+    color: yellow;
+}
+
+.border-hover:hover{
+    border: solid deeppink;
+}
+
+/* number, even, odd */
+li:nth-child(3){
+    color: green;
+}
+
+/* pseudo elements */
+.star::before{
+    content: "⭐";
+    font-size: 25px;
+}
+
+.star::after{
+    content: "⭐";
+    font-size: 25px;
+}
+
+.hello::first-letter{
+    font-size: 50px;
+}
+
+.hello{
+    font-style: italic;
+    text-transform: capitalize;
+    /* text-shadow: 2px 2px 2px black; */
+}
+
+.container1{
+    font-size: 15px;
+    color: purple;
+}
+
+.container1 > p:nth-child(2){
+    color: blue;
+}
+
+/* .special-class{
+
+} */
+
+p + p{
+    color: red;
+}
+
+div ~ p{
+    color: deeppink;
+}
+
+/* div > div div > div > p{
+}
+
+section.hello#id[attr=""]{
+} */
+
+/* <div>
+
+<div>
+  <div>
+  <section class="hello">
+    <div>
+      <div>
+        <p></p>
+      </div>
+    </div>
+  </section>
+
+  <div class="hello"></div>
+  </div>
+</div> */
+
+/* any descendant combinator " " */
+/* direct descendant combinator > */
+/* sibling combinator ~ */
